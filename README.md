@@ -63,6 +63,7 @@ URL: /conference/reservations/jan
 Pobranie listy wszystkich wykładów
 URL: /conference/plan
 Metoda: GET
+URL: /conference/plan
 
 
 Do implementacji:
