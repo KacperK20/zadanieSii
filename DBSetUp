@@ -1,0 +1,44 @@
+CREATE TABLE users (
+    id INT PRIMARY KEY,
+    username VARCHAR(255),
+    email VARCHAR(255)
+);
+
+
+CREATE TABLE LECTURES (
+    ID INT PRIMARY KEY,
+    START DATETIME,
+    TITLE VARCHAR(255),
+    TRACK INT
+);
+
+
+CREATE TABLE RESERVATIONS (
+    ID INT PRIMARY KEY,
+    LECTURE_ID INT,
+    USER_ID INT,
+    FOREIGN KEY (LECTURE_ID) REFERENCES LECTURES(ID),
+    FOREIGN KEY (USER_ID) REFERENCES USERS(ID)
+);
+
+
+INSERT INTO lectures (id, start, title, track)
+VALUES 
+    (1, '2023-06-22 10:00:00', 'Introduction to SQL', 5),
+    (2, '2023-06-22 12:00:00', 'Introduction to SQL', 5),
+    (3, '2023-06-22 14:00:00', 'Introduction to SQL', 5),
+    (4, '2023-06-22 10:00:00', 'Introduction to JAVA', 5),
+    (5, '2023-06-22 12:00:00', 'Introduction to JAVA', 5),
+    (6, '2023-06-22 14:00:00', 'Introduction to JAVA', 5),
+    (7, '2023-06-22 10:00:00', 'Introduction to PHP', 5),
+    (8, '2023-06-22 12:00:00', 'Introduction to PHP', 5),
+    (9, '2023-06-22 14:00:00', 'Introduction to PHP', 5);
+
+INSERT INTO users (id, email, username)
+VALUES
+  (1, 'jan@oo.com', 'jan'),
+  (2, 'Kacper@oo.com', 'Kacper'),
+  (3, 'Maciej@oo.com', 'Maciej'),
+  (4, 'Jola@oo.com', 'Jola'),
+  (5, 'Ola@oo.com', 'Ola'),
+  (6, 'Adrian@oo.com', 'Adrian');
