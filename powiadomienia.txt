@@ -1,0 +1,11 @@
+Date: 22-06-2023, To: string, Content: Your reservation for lecture  is confirmed.
+Date: 22-06-2023, To: string, Content: Your reservation for lecture  is confirmed.
+Date: 22-06-2023, To: string, Content: Your reservation for lecture  is confirmed.
+Date: 22-06-2023, To: string, Content: Your reservation for lecture  is confirmed.
+Date: 22-06-2023, To: example@example.com, Content: Your reservation for lecture  is confirmed.
+Date: 22-06-2023, To: example@example.com, Content: Your reservation for lecture  is confirmed.
+Date: 22-06-2023, To: test@.com, Content: Your reservation for lecture  is confirmed.
+Date: 22-06-2023, To: test2@.com, Content: Your reservation for lecture  is confirmed.
+Date: 22-06-2023, To: test32@.com, Content: Your reservation for lecture  is confirmed.
+Date: 22-06-2023, To: test323@.com, Content: Your reservation for lecture  is confirmed.
+Date: 22-06-2023, To: test3243@.com, Content: Your reservation for lecture  is confirmed.
